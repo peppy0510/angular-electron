@@ -7,7 +7,6 @@ import { ElectronService } from '../core/services/electron/electron.service';
 
 // import { HomeRoutingModule } from './home-routing.module'
 
-
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',

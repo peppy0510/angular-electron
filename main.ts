@@ -3,8 +3,8 @@ import * as path from 'path';
 import * as url from 'url';
 
 let win: BrowserWindow = null;
-const args = process.argv.slice(1),
-    serve = args.some(val => val === '--serve');
+const args = process.argv.slice(1);
+const serve = args.some(val => val === '--serve');
 
 function createWindow(): BrowserWindow {
 
