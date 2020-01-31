@@ -1,5 +1,14 @@
 <div class="container">
-  <h1 class="title">
-    {{ 'PAGES.HOME.TITLE' | translate }}
-  </h1>
+    <h1 class="title">
+        {{ 'PAGES.HOME.TITLE' | translate }}
+    </h1>
+    <button class="goto-button" (click)="gotoAbout()">
+        About
+    </button>
+    <nav>
+        <a class="router-link" routerLink="/about/0">About</a>
+    </nav>
+    <button class="goto-button" (click)="fetchData()">
+        fetchData()
+    </button>
 </div>
